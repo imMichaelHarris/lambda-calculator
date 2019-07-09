@@ -1,8 +1,9 @@
 import React from "react";
 
-const SpecialButton = () => {
+const SpecialButton = (props) => {
   return (
     <>
+    <button>{props.special}</button>
     </>
   );
 };
