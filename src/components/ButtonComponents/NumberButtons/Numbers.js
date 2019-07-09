@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import {numbers as nums} from '../../../data'
 import NumberButton from "./NumberButton";
 
+import styles from '../../../calculator.module.css';
+
 
 const Numbers = () => {
   const [numbers, setNumber] = useState(nums)
