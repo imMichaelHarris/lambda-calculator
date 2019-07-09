@@ -1,9 +1,11 @@
 import React from "react";
+import styles from '../../../calculator.module.css';
+
 
 const OperatorButton = (props) => {
   return (
     <>
-    <button>{props.operator.char}</button>
+    <button className={styles.operators}>{props.operator.char}</button>
     </>
   );
 };

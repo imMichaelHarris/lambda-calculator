@@ -1,9 +1,11 @@
 import React from "react";
+import styles from '../../../calculator.module.css';
+
 
 const SpecialButton = (props) => {
   return (
     <>
-    <button>{props.special}</button>
+    <button className={styles.specials}>{props.special}</button>
     </>
   );
 };
