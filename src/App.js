@@ -36,7 +36,7 @@ console.log(expression)
         <Display numbers={numbers}/>
         <div>
           <Specials clearDisplay={clearDisplay} />
-          <Numbers addNumber={addNumber} />
+          <Numbers addNumber={addNumber} addExpression={addExpression} />
           <Operators addExpression={addExpression}/>
         </div>
       </div>
