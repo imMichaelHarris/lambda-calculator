@@ -20,8 +20,11 @@ function App() {
 
   const addExpression = num => setExpression([...expression, num]);
   const evaluate = () => {
+    let answer = expression.join("");
     console.log('eval')
-    console.log(expression)
+
+    console.log(typeof answer)
+
   }
 
   const clearDisplay = () => setExpression([]);
