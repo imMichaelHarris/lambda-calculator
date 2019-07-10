@@ -36,7 +36,7 @@ function App() {
             <Specials clearDisplay={clearDisplay} />
             <Numbers addExpression={addExpression} />
           </div>
-          <Operators addExpression={addExpression} />
+          <Operators addExpression={addExpression} evaluate={evaluate}/>
         </div>
       </div>
     </div>
