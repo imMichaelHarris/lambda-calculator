@@ -12,6 +12,9 @@
 .App {
     margin: 0 auto;
 }
+.logo {
+    height: 30px;;
+}
 .calcButtons {
     margin-top: 25px;
     display: flex;
