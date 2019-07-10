@@ -20,12 +20,14 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   const addNumber = num => setNumbers([...numbers, num])
+  const addExpression = num => setExpression([...expression, num])
+
   const newOperator = operator => setNumbers({
     numbers: numbers,
 
   })
   const clearDisplay = () => setNumbers([])
-
+console.log(expression)
   return (
     <div className="container">
       <Logo />
@@ -35,7 +37,7 @@ function App() {
         <div>
           <Specials clearDisplay={clearDisplay} />
           <Numbers addNumber={addNumber} />
-          <Operators />
+          <Operators addExpression={addExpression}/>
         </div>
       </div>
     </div>
