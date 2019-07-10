@@ -1,6 +1,8 @@
 import React from "react";
 import { operators } from "../../../data";
 import OperatorButton from "./OperatorButton";
+import styles from '../../../calculator.module.css';
+
 
 //import any components needed
 
