@@ -19,6 +19,9 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   const addExpression = num => setExpression([...expression, num]);
+  const evaluate = () => {
+    console.log('eval')
+  }
 
   const clearDisplay = () => setExpression([]);
   console.log(expression);
