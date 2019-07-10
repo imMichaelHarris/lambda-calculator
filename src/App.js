@@ -32,7 +32,7 @@ function App() {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display numbers={numbers}/>
         <div>
-          <Specials />
+          <Specials clearDisplay={clearDisplay} />
           <Numbers addNumber={addNumber} />
           <Operators />
         </div>
