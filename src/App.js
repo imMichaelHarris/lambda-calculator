@@ -26,7 +26,7 @@ function App() {
     numbers: numbers,
 
   })
-  const clearDisplay = () => setNumbers([])
+  const clearDisplay = () => setExpression([])
 console.log(expression)
   return (
     <div className="container">
