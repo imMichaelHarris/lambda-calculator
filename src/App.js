@@ -19,6 +19,11 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   const addNumber = num => setNumbers([...numbers, num])
+  const newOperator = operator => setNumbers({
+    numbers: numbers,
+
+  })
+  const clearDisplay = () => setNumbers([])
 
   return (
     <div className="container">
