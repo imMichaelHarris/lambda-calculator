@@ -33,7 +33,7 @@ console.log(expression)
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Display numbers={numbers}/>
+        <Display expression={expression}/>
         <div>
           <Specials clearDisplay={clearDisplay} />
           <Numbers addNumber={addNumber} addExpression={addExpression} />
