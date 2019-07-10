@@ -21,10 +21,11 @@ function App() {
   const addExpression = num => setExpression([...expression, num]);
   const evaluate = () => {
     console.log('eval')
+    console.log(expression)
   }
 
   const clearDisplay = () => setExpression([]);
-  console.log(expression);
+  // console.log(expression);
   return (
     <div className="container">
       <Logo />
