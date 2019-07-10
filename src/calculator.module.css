@@ -10,6 +10,14 @@
 .numbers:focus {
     outline: none;
 }
+.operatorList {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+.calcButtons {
+    width: 50%;
+}
 .operators {
     border-radius: 50%;
     color: #fff;

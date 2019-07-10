@@ -29,8 +29,8 @@ console.log(expression)
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display expression={expression}/>
         <div>
-          <Operators addExpression={addExpression}/>
           <Specials clearDisplay={clearDisplay} />
+          <Operators addExpression={addExpression}/>
           <Numbers addExpression={addExpression} />
         </div>
       </div>
