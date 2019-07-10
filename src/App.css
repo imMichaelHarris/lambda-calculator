@@ -7,8 +7,19 @@
     margin: 0 auto;
     padding: 30px;
     border-radius: 20px;
-    height:700px;
+    height:680px;
 }
 .App {
     margin: 0 auto;
+}
+.calcButtons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

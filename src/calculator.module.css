@@ -1,11 +1,20 @@
+.numberList {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 370px;
+}
 .numbers {
     border-radius: 50%;
     color: #fff;
     font-size: 2rem;
-    background-color: darkblue;
+    background-color: rgb(22, 94, 202);
     border: none;
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 4px 2px #333;
 }
 .numbers:focus {
     outline: none;
@@ -13,15 +22,21 @@
 .operatorList {
     display: flex;
     flex-direction: column;
+
+    justify-content: space-between;
     width: 80px;
 }
-.calcButtons {
-    width: 50%;
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    justify-content: space-between;
 }
 .operators {
     border-radius: 50%;
     color: #fff;
     font-size: 2rem;
+    box-shadow: 0 4px 2px #333;
 
     background-color: rgb(80, 130, 146);
     border: none;
@@ -37,6 +52,8 @@
     color: #fff;
     font-size: 2rem;
     background-color: rgb(80, 106, 146);
+    box-shadow: 0 4px 2px #333;
+
     border: none;
     width: 80px;
     height: 80px;
