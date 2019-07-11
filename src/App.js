@@ -21,9 +21,7 @@ function App() {
   const addExpression = num => setExpression([...expression, num]);
   const evaluate = () => {
     let answer = expression.join("");
-    setExpression(answer)
-
-
+    setExpression(eval(answer))
   }
 
   const clearDisplay = () => setExpression([]);
