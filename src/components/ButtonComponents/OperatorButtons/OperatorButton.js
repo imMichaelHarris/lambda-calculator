@@ -1,9 +1,13 @@
 import React from "react";
+import styles from '../../../calculator.module.css';
 
-const OperatorButton = () => {
+
+const OperatorButton = (props) => {
   return (
     <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
+    <button className={styles.operators} onClick={props.operator.value === "=" ? () => props.evaluate() : () => props.addExpression(props.operator.value)}>{props.operator.char}</button>
     </>
   );
 };
+
+export default OperatorButton;
