@@ -21,9 +21,8 @@ function App() {
   const addExpression = num => setExpression([...expression, num]);
   const evaluate = () => {
     let answer = expression.join("");
-    console.log('eval')
+    setExpression(answer)
 
-    console.log(typeof answer)
 
   }
 
